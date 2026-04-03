@@ -1,0 +1,66 @@
+# Xcode
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods (if ever used)
+Pods/
+Podfile.lock
+
+# Carthage (if ever used)
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Archives
+*.xcarchive
+
+# iOS / macOS specific
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# User-specific files
+*.swp
+*.swo
+*.orig
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external drives
+.Spotlight-V100
+.Trashes
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Xcode previews
+*.xcpreviewdata/
+
+# SwiftUI canvas cache
+*.xcuserstate
+
+# Logs
+*.log
